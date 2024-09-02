@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D445A1B82C85D524003CEEBF /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1B72C85D524003CEEBF /* SwiftUIPracticeApp.swift */; };
-		D445A1BA2C85D524003CEEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1B92C85D524003CEEBF /* ContentView.swift */; };
+		D445A1BA2C85D524003CEEBF /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1B92C85D524003CEEBF /* LaunchView.swift */; };
 		D445A1BC2C85D526003CEEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D445A1BB2C85D526003CEEBF /* Assets.xcassets */; };
 		D445A1BF2C85D526003CEEBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D445A1BE2C85D526003CEEBF /* Preview Assets.xcassets */; };
+		D445A1C62C85D586003CEEBF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1C52C85D586003CEEBF /* ProfileView.swift */; };
+		D445A1C82C85D5AC003CEEBF /* NicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1C72C85D5AC003CEEBF /* NicknameView.swift */; };
+		D445A1CA2C85D5B1003CEEBF /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1C92C85D5B1003CEEBF /* CompleteView.swift */; };
+		D445A1CC2C86065C003CEEBF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A1CB2C86065C003CEEBF /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D445A1B42C85D524003CEEBF /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D445A1B72C85D524003CEEBF /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
-		D445A1B92C85D524003CEEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D445A1B92C85D524003CEEBF /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		D445A1BB2C85D526003CEEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D445A1BE2C85D526003CEEBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D445A1C52C85D586003CEEBF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D445A1C72C85D5AC003CEEBF /* NicknameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameView.swift; sourceTree = "<group>"; };
+		D445A1C92C85D5B1003CEEBF /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		D445A1CB2C86065C003CEEBF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D445A1B72C85D524003CEEBF /* SwiftUIPracticeApp.swift */,
-				D445A1B92C85D524003CEEBF /* ContentView.swift */,
+				D445A1B92C85D524003CEEBF /* LaunchView.swift */,
+				D445A1C72C85D5AC003CEEBF /* NicknameView.swift */,
+				D445A1C52C85D586003CEEBF /* ProfileView.swift */,
+				D445A1C92C85D5B1003CEEBF /* CompleteView.swift */,
+				D445A1CB2C86065C003CEEBF /* SearchView.swift */,
 				D445A1BB2C85D526003CEEBF /* Assets.xcassets */,
 				D445A1BD2C85D526003CEEBF /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D445A1BA2C85D524003CEEBF /* ContentView.swift in Sources */,
+				D445A1CA2C85D5B1003CEEBF /* CompleteView.swift in Sources */,
+				D445A1BA2C85D524003CEEBF /* LaunchView.swift in Sources */,
+				D445A1C62C85D586003CEEBF /* ProfileView.swift in Sources */,
+				D445A1C82C85D5AC003CEEBF /* NicknameView.swift in Sources */,
+				D445A1CC2C86065C003CEEBF /* SearchView.swift in Sources */,
 				D445A1B82C85D524003CEEBF /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
